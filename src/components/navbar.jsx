@@ -3,7 +3,7 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#home">Snap</a>
+                    <a className="navbar-brand" href="#home" style={{fontSize: "40px", color: "hsl(0, 0%, 8%)", fontWeight: "800"}}>snap</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                         <span className="navbar-toggler-icon"></span>
                     </button>
