@@ -73,7 +73,7 @@ function Navbar() {
                     </div>
                 </div>
 
-                <div style={{width: "300px"}}className="offcanvas offcanvas-end mob" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div style={{width: "300px"}}className="offcanvas offcanvas-end mob" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                     <div className="offcanvas-header">
                         <h5 className="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
                         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
