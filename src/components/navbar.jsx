@@ -1,7 +1,7 @@
 function Navbar() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary px-2">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#home" style={{fontSize: "40px", color: "hsl(0, 0%, 8%)", fontWeight: "800"}}>snap</a>
                     <button className="navbar-toggler focus" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"
