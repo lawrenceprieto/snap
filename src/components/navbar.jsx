@@ -11,8 +11,8 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                                    style={{fontSize: "18px", color: "hsl(0, 0%, 41%)"}}>
+                                <a className="nav-link dropdown-toggle hov" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                    style={{paddingLeft: "45px", fontSize: "18px", color: "hsl(0, 0%, 41%)"}}>
                                     Features
                                 </a>
                                 <ul className="dropdown-menu py-3 px-1" style={{backgroundColor: "hsl(0, 0%, 98%)", border: "none", boxShadow: "-1px 5px 10px 5px rgba(0,0,0,0.34)"}}>
@@ -43,8 +43,8 @@ function Navbar() {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                                    style={{fontSize: "18px", color: "hsl(0, 0%, 41%)"}}>
+                                <a className="nav-link dropdown-toggle hov" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                    style={{paddingLeft: "25px", fontSize: "18px", color: "hsl(0, 0%, 41%)"}}>
                                     Company
                                 </a>
                                 <ul className="dropdown-menu pt-4 px-4" style={{backgroundColor: "hsl(0, 0%, 98%)", border: "none", boxShadow: "-1px 5px 10px 5px rgba(0,0,0,0.34)"}}>
@@ -60,15 +60,15 @@ function Navbar() {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#" style={{fontSize: "18px", color: "hsl(0, 0%, 41%)"}}>Carrers</a>
+                                <a className="nav-link hov" aria-current="page" href="#" style={{paddingLeft: "25px", fontSize: "18px", color: "hsl(0, 0%, 41%)"}}>Carrers</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#" style={{fontSize: "18px", color: "hsl(0, 0%, 41%)"}}>About</a>
+                                <a className="nav-link hov" href="#" style={{paddingLeft: "25px", fontSize: "18px", color: "hsl(0, 0%, 41%)"}}>About</a>
                             </li>
                         </ul>
                         <div className="d-flex gap-3">
-                            <button className="btn btn-light" style={{color: "hsl(0, 0%, 41%)"}}>Login</button>
-                            <button className="btn btn-outline-dark" style={{color: "hsl(0, 0%, 41%)"}}>Register</button>
+                            <button className="btn btn-light px-4" style={{color: "hsl(0, 0%, 41%)"}}>Login</button>
+                            <button className="btn btn-outline-dark px-4">Register</button>
                         </div>
                     </div>
                 </div>

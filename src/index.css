@@ -17,3 +17,8 @@
 * {
   font-family: 'Epilogue', sans-serif;
 }
+
+.hov:hover {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
