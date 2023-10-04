@@ -74,9 +74,8 @@ function Navbar() {
                 </div>
 
                 <div style={{width: "300px"}}className="offcanvas offcanvas-end mob" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                    <div className="offcanvas-header">
-                        <h5 className="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-                        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <div className="offcanvas-header d-flex justify-content-end px-4 pt-4">
+                        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style={{fontSize: "28px"}}></button>
                     </div>
                     <div className="offcanvas-body">
                         <div className="accordion accordion-flush" id="accordionFlushExample">
