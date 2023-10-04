@@ -7,10 +7,11 @@ function Herobanner() {
         <>
             <div className="bg-white banner" style={{}}>
                 <img className="mob" src={mobilehero} height="auto" alt="hero" style={{width: "100%"}} />
-                <img className="desk" src={desktophero} alt="hero" style={{}} />
-                <div className="text-center mt-5 px-4">
-                    <h1 style={{fontSize: "40px", fontWeight: "800",color: "hsl(0, 0%, 8%)"}}>Make remote work</h1>
-                    <p className="" style={{fontSize: "18px", color: "hsl(0, 0%, 41%)"}}>
+                <img className="desk" src={desktophero} alt="hero" style={{width: "400px", height: "450px"}} />
+                <div className="mt-5 px-4 det">
+                    <h1 style={{color: "hsl(0, 0%, 8%)"}}>Make</h1>
+                    <h1 style={{color: "hsl(0, 0%, 8%)"}}>Remote work</h1>
+                    <p className="" style={{color: "hsl(0, 0%, 41%)"}}>
                         Get your team in sync, no matter your location. Streamline 
                         processes, create team rituals, and watch productivity soar.
                     </p>
